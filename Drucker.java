@@ -1,7 +1,7 @@
 public class Drucker {
 
     /**
-     * DIese Methode zeigt das aktuelle Spielbrett auf der Konsole an
+     * Diese Methode zeigt das aktuelle Spielbrett auf der Konsole an
      *
      * @param spielbrett spielbrett dient dazu um auf die aktuellen Daten des
      * Spielbretts zuzugreifen
