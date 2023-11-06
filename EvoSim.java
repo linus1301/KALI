@@ -1,4 +1,3 @@
-package com.mycompany.evosim;
 //importiert den Scanner
 
 import java.util.Scanner;
