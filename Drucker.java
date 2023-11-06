@@ -1,5 +1,3 @@
-package com.mycompany.evosim;
-
 public class Drucker {
 
     /**
@@ -8,6 +6,7 @@ public class Drucker {
      * @param spielbrett spielbrett dient dazu um auf die aktuellen Daten des
      * Spielbretts zuzugreifen
      */
+    
     public static void druckeBelegung(Spielbrett spielbrett) {
         //Greift auf die Felder der Spielbrett-Instanz zu 
         int[][] feld = spielbrett.feld;
