@@ -1,5 +1,3 @@
-package com.mycompany.evosim;
-
 public class Spielbrett {
 
     int[][] feld;
