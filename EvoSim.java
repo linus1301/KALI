@@ -32,11 +32,12 @@ public class EvoSim {
 //Führt die Simulation für die vom Benutzer angegebenen Jahre durch 
         for (int aktuellesJahr = 0; aktuellesJahr < jahre; aktuellesJahr++) {
             System.out.println("");
-            System.out.println("Jahr: " + (aktuellesJahr + 1));
+            System.out.println("Jahr " + (aktuellesJahr + 1));
             System.out.println("");
             spielbrett.aktualisiereSimulation();
             Drucker.druckeBelegung(spielbrett);
 
         }
+        input.close();
     }
 }
