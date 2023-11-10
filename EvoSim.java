@@ -1,15 +1,22 @@
 //importiert den Scanner
-
 import java.util.Scanner;
 
 public class EvoSim {
 
     public static void main(String[] args) {
         //Anzahl der Reihen 
-        int reihen = 5;
-        int spalten = 5;
+        int reihen;
+        int spalten;
 //Anlegen eines neuen Scanners
         Scanner input = new Scanner(System.in);
+        //Textausgabe
+        System.out.println("Ueber wie viele Reihen soll die Simulation verfügen?");
+        //Benutzereingabe 
+        reihen = input.nextInt();
+        //Textausgabe
+         System.out.println("Ueber wie viele Spalten soll die Simulation verfügen?");
+         //Benutzereingabe
+        spalten = input.nextInt();
 //Textausgabe
         System.out.println("Für wie viele Jahre soll die Simulation berechnet werden?");
         //Benutzereingabe für Anzahl der Jahre
@@ -26,6 +33,7 @@ public class EvoSim {
                 //Belegung des Spielbretts wird festgelegt
                 spielbrett.setZustand(i, j, belegung);
                 //Gibt die aktuelle Belegung des Spielbretts aus 
+                System.out.println("");
                 Drucker.druckeBelegung(spielbrett);
             }
         }
@@ -38,6 +46,9 @@ public class EvoSim {
             Drucker.druckeBelegung(spielbrett);
 
         }
+
         input.close();
+    }
+}
     }
 }
